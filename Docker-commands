@@ -25,3 +25,53 @@ root@docker:~# history
    24  clear
    25  docker save sks09:latest > sks09.tar
    26  ls
+
+
+
+
+root@docker:~# history 
+    1  apt-get update 
+    2  docker ps
+    3  apt install docker.io
+    4  docker -v
+    5  docker -ps
+    6  docker ps
+    7  uptime -p
+    8  vim Docerfile
+    9  cat Docerfile 
+   10  ls
+   11  vim Dockerfile
+   12  rm Docerfile 
+   13  ls
+   14  cat Dockerfile 
+   15  docker image
+   16  docker build -t mynginxvishwajeet .
+   17  docker image
+   18  docker ps
+   19  docker image
+   20  docker images
+   21  docker login
+   22  docker images
+   23  docker tag 6286fa616fbf vishwajeetsingh1/mynginxvishwajeet:latest
+   24  docker images
+   25  docker push vishwajeetsingh1/mynginxvishwajeet:latest
+   26  docker pull vikas4cloud/mynginxvaishali:latest
+   27  docker images
+   28  docker ps
+   29  docker run -it -d ubuntu
+   30  docker ps
+   31  docker commit vishwajeetimage
+   32  docker commit bbee9a13e646 vishwajeetimage
+   33  docker ps
+   34  docker push bbee9a13e646 
+   35  docker push bbee9a13e646 vicky_ubantu
+   36  docker images
+   37  docker save  vikas4cloud/mynginxvaishali:latest >vicky.tar
+   38  ls
+   39  docker images
+   40  docker system df
+   41  docker system prune 
+   42  docker image prune -a
+   43  docker image
+   44  docker images
+   45  history 
