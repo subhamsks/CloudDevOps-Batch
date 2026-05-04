@@ -1,0 +1,27 @@
+root@docker:~# history
+    1  apt-get update
+    2  apt install docker.io
+    3  docker --version
+    4  clear
+    5  vi dockerfile
+    6  ls
+    7  docker build -t mynginxbatch43
+    8  docker build -t mynginxbatch43 .
+    9  docker images
+   10  docker build -t sks09 .
+   11  docker images
+   12  docker login
+   13  docker tag 266082843b1a subhamsks09/sks09:latest
+   14  docker images
+   15  docker push subhamsks09/sks09:latest
+   16  history
+   17  docker pull vikas4cloud/mynginxvaishali
+   18  clear
+   19  docker run -it -d ubuntu
+   20  docker images
+   21  docker commit 266082843b1a subham
+   22  docker ps
+   23  docker commit c5ab0f97fea7 subham
+   24  clear
+   25  docker save sks09:latest > sks09.tar
+   26  ls
